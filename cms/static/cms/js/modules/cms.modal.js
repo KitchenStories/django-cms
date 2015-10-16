@@ -137,7 +137,8 @@ $(document).ready(function () {
 			var screenHeight = $(window).height(); // it has to be the height of the window and not computer screen
 
 			var width = (screenWidth >= this.options.minWidth + widthOffset) ? screenWidth - widthOffset : this.options.minWidth;
-			var height = (screenHeight >= this.options.minHeight + heightOffset) ? screenHeight - heightOffset : this.options.minHeight;
+			// var height = (screenHeight >= this.options.minHeight + heightOffset) ? screenHeight - heightOffset : this.options.minHeight;
+			var height = this.options.minHeight;
 			this.modal.find('.cms_modal-body').css({
 				'width': width,
 				'height': height
