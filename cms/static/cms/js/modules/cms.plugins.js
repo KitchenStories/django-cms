@@ -360,7 +360,7 @@ $(document).ready(function () {
 				'plugin_id': options.plugin_id,
 				'plugin_parent': plugin_parent || '',
 				 // this is a hack: when moving to different languages use the global language
-				'plugin_language': options.page_language,
+				'plugin_language': options.plugin_language,
 				'plugin_order': plugin_order,
 				'csrfmiddlewaretoken': this.csrf
 			};
